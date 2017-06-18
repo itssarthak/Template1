@@ -2,27 +2,42 @@
 <html>
 <head>
 	<title>Greatness</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	
 		<!-- 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
+ <!-- <script src="js/bootstrap.min.js"></script>-->
+
+
 </head>
 <body>
 	<div class="jumbotron jumbotron-main" style="box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .7);background-image:url('img_bg_1.jpg'); color:#fff;height:700px;">
-		<div class=container>
 		<div class=row>
-		<a class="col-md-3 col-sm-3 col-xs-3" href="#" style="font-weight: bold">GREATNESS.</a>
+		<a class="col-md-3 col-sm-3 col-xs-3" href="#" id="Greatness" style="font-weight: bold">GREATNESS.</a>
 		<ul class="nav nav-pills col-md-5 col-md-offset-4 col-sm-5 col-sm-offset-4 col-xs-5 col-xs-offset-4">
 		  <li role="presentation" class="active" style="background-color:transparent "><a href="#">Home</a></li>
 		  <li role="presentation"><a href="#">About</a></li>
@@ -49,7 +64,7 @@
 		  <li role="presentation"><a href="#">Contact</a></li>
 		  </ul>
 		  </div>
-		  <div>
+		  <div style="	animation-name: fade; animation-duration: 1.5s;">
 		  <h1>
 		  GREATNESS FREE TEMPLATE
 		  </h1>
@@ -57,10 +72,9 @@
 		  <button type="button" class="btn btn-lg" id="b1">Get Started</button>
 		  <button type="button" class="btn btn-lg" id="b2">Download</button>
 		  </div>
-		</div>
 	</div>
 	<div class=row id="gfeatures">
-		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf1"><h3 class=text-uppercase><span class="glyphicon glyphicon-eye" aria-hidden="true"></span>Retina Ready</h3><br>
+		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf1"><h3 class=text-uppercase><span class="glyphicon glyphicon glyphicon-eye-open gl" aria-hidden="true"></span><br>Retina Ready</h3><br>
 			<div class=row>
 				<div class="col-md-8  col-md-offset-2">
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
@@ -68,7 +82,7 @@
 			</div>
 			<button class="btn lmbtn" type="button">Learn More</button>
 		</div>
-		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf2"><h3 class=text-uppercase><span class="glyphicon glyphicon-eye" aria-hidden="true"></span>Fully Responsive</h3><br>
+		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf2"><h3 class=text-uppercase><span class="glyphicon glyphicon-refresh gl" aria-hidden="true"></span><br>Fully Responsive</h3><br>
 		<div class=row>
 				<div class="col-md-8  col-md-offset-2">
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
@@ -76,7 +90,7 @@
 			</div>
 			<button class="btn lmbtn" type="button">Learn More</button>
 		</div>
-		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf3"><h3 class=text-uppercase><span class="glyphicon glyphicon-eye" aria-hidden="true"></span>Web starter</h3><br>
+		<div class="col-md-4 col-sm-4 col-xs-4"  id="gf3"><h3 class=text-uppercase><span class="glyphicon glyphicon-off gl" aria-hidden="true"></span><br>Web starter</h3><br>
 			<div class=row>
 					<div class="col-md-8  col-md-offset-2">
 						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
@@ -84,6 +98,126 @@
 			</div>
 			<button class="btn lmbtn" type="button">Learn More</button>
 		</div>
-	
+	</div>
+
+		<div class="container fontx">
+		<h2>Watch Our Videos</h2>
+		<p class="col-md-6 col-md-offset-3">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>	
+				<div id="vcenter">
+					<div class="row">
+						<div class="col-md-4 videox">
+						<h1><span class="glyphicon glyphicon-facetime-video"></span></h1>
+						</div>
+						<div class="col-md-4 videox">
+						<h1><span class="glyphicon glyphicon-facetime-video"></span></h1>
+						</div>
+						<div class="col-md-4 videox">
+						<h1><span class="glyphicon glyphicon-facetime-video"></span></h1>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="jumbotron jumbotron-main" style=" background-image:url('img_bg_2.jpg'); color:#fff;position:relative;height:500px; margin-top: 0px; background-repeat: no-repeat;background-size: cover;margin-bottom: 0px;">
+			<div class=shade style="margin-bottom: 0px;">
+				<div style="margin-right: auto;margin-left:auto;width:1100px; ">
+					<div class="text-uppercase col-md-3  ovr" id="c1">
+						<h1><span class="glyphicon glyphicon-eye-open"></span><br><br>22070</h1>
+						<h2>Creativity Fuel</h2>
+					</div>
+					<div class="text-uppercase col-md-3 ovr" id="c2">
+						<h1><span class="glyphicon glyphicon-apple"></span><br><br>97</h1>
+						<h2>Happy Clients</h2>
+					</div>
+					<div class="text-uppercase col-md-3 ovr" id="c3">
+						<h1><span class="glyphicon glyphicon-briefcase"></span><br><br>402</h1>
+						<h2>Projects Done</h2>
+					</div>
+					<div class="text-uppercase col-md-3 ovr" id="c4">
+						<h1><span class="glyphicon glyphicon-time"></span><br><br>21203</h1>
+						<h2>Hours Spent</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div id="test" class="col-md-12 fontx">
+		<h1>Testimonial</h1>
+		<div id=testimonial class="carousel slide" data-ride="carousel"  style="margin-bottom: 100px;">
+			<ol class="carousel-indicators">
+				<li data-target="#testimonial" data-slide-to="0" class="active"></li>
+				<li data-target="#testimonial" data-slide-to="1"></li>
+				<li data-target="#testimonial" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div style="width:570px; margin:auto;">
+						<img src="person_1.jpg" alt="Image One">
+						<h2 class="text-uppercase">jean doe, via <span style="color:#f75915">twitter</span></h2>
+						<blockquote>
+							<p>
+								"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+							</p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="item">
+					<div style="width:570px; margin:auto;">
+						<img src="person_2.jpg" alt="Image One">
+						<h2 class="text-uppercase">john doe, via <span style="color:#f75915">twitter</span></h2>
+						<blockquote>
+							<p>
+								"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+							</p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="item">
+					<div style="width:570px; margin:auto;">
+						<img src="person_3.jpg" alt="Image One">
+						<h2 class="text-uppercase">john doe, via <span style="color:#f75915">twitter</span></h2>
+						<blockquote>
+							<p>
+								"Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+							</p>
+						</blockquote>
+					</div>
+				</div>
+			<div style="margin-bottom:100px"><h1></h1></div>
+		</div>
+	</div>
+</div>
+	<div class="offer fontx">
+		<div>
+		<h2 style="color: transparent;">What We Offer</h2>
+		<h1>What We Offer</h1>
+		<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+		</div>
+	</div>
+
+	<div class="nav">
+		<ul class="nav nav-tabs">
+		  <li role="presentation" class="active"><a href="#" data-tab="1">Web Design</a></li>
+		  <li role="presentation"><a href="#" data-tab="2">Online Marketing</a></li>
+		  <li role="presentation"><a href="#" data-tab="3">E-Commerce</a></li>
+		  <li role="presentation"><a href="#" data-tab="3">Logo Branding</a></li>
+		</ul>
+		<div class="nav-tab-content-wrap" style="height:643px">
+			<div class="tab-content active" data-tab-content="1">
+			<div style="padding-top: 80px;">
+				<div class="col-md-4 videox" style="height:450px; width:540px;">
+						<h1><span class="glyphicon glyphicon-facetime-video"></span></h1>
+				</div>
+				<div class="row">
+				<div class="fontx col-md-4 fonty">
+				<h1>Web Design</h1>
+				<p>Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.<br><br>
+				Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.</p>
+				</div>
+				</div>
+			</div>		
+			</div>
+		</div>
+	</div>
 </body>
 </html>
