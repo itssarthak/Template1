@@ -395,7 +395,7 @@ transition: 0.4s;
 }
 .ovr h1>span
 {
-color:#f75915;
+	color:#f75915;
 	font-size: 45px;
 	margin-bottom: 20px;
 	font-weight: lighter;	
@@ -499,6 +499,7 @@ color:#f75915;
 	padding-top: 100px;
 	font-weight: bold;
 	padding-bottom: 20px;
+
 }
 .offer p
 {
@@ -514,4 +515,119 @@ color:#f75915;
 {
 	text-align: left;
 	font-size: 16px;
+}
+.nav-tabs > li ,
+.nav-tabs > li > a{
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+     color:#919191;
+     transition:0.5s;
+     border:0px;
+}	
+.nav-tabs > li:hover ,
+.nav-tabs > li > a:hover{
+  float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+     color:#282828;
+     transition:0.5s;
+     background-color: transparent;
+     border:0px;
+}
+.nav-tabs
+{
+	color:#f75915;
+	background-color: #f6f6f6;
+	border:solid transparent 0.2px;
+	border-radius: 5px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color:#f75915;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-radius: 5px;
+    border:solid transparent 0.2px;
+}
+.gfeatures p
+{
+	color: #828282;
+	font-size: 16px;
+    font-family: "Raleway", Arial, sans-serif;
+	font-weight: 400;
+}
+.glyok
+{
+	color:#f75915;
+	font-size: 25px;
+	font-weight: lighter;	
+}
+.tabf
+{
+    animation-name: fade;
+    animation-duration: 0.8s;
+}
+#sub
+{
+	margin-top: 100px;
+	padding:100px;
+	background-color: #333333;
+}
+#sub h1
+{
+	color:#fff;
+	font-weight: bold;
+	animation-name: count1;
+    animation-duration: 1.5s;
+}
+#sub p
+{
+	color:#828282;
+	font-size: 18px;
+	animation-name: count1;
+    animation-duration: 1.5s;
+}
+#sub input[type=email],#sub input[type=text]
+{
+	background-color: #5c5c5c;
+	border:0;
+	border-radius: 5px;
+	height:50px;
+	width:350px;
+	color:#fff;
+	padding-left: 20px;
+	margin: 10px;
+	font-size: 16px;
+	animation-name: count3;
+    animation-duration: 1.5s;
+}
+#sub input[type=submit]
+{
+	background-color: #f75915;
+	border:0;
+	border-radius: 5px;
+	height:50px;
+	width:350px;
+	color:#fff;
+	padding-left: 20px;
+	margin: 10px;
+	animation-name: count3;
+    animation-duration: 1.5s;
+}
+.footer
+{
+	margin-top: 100px;
+}
+.footer a
+{
+	color:black;
 }
